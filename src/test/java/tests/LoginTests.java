@@ -9,7 +9,7 @@ public class LoginTests extends TestBase{
     String IncorrectPassword = "ds1288";
     @Test
     public void loginPositiveTest(){
-        app.getUser().openLoginRegistrationForm();
+        app.getUser().openLoginForm();
         app.getUser().fillLoginRegistrationForm(correctEmail, correctPassword);
         app.getUser().submitLogin();
         Assert.assertTrue(app.getUser().isLogged());
