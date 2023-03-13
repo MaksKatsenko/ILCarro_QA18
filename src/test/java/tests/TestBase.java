@@ -6,10 +6,10 @@ import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
 
-    static ApplicationManager app = new ApplicationManager();
+   public static ApplicationManager app = new ApplicationManager();
 
     @BeforeSuite
-    public void SetUp(){
+    public void setUp(){
         app.init();
     }
 
