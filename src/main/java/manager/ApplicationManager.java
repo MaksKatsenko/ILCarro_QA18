@@ -16,10 +16,12 @@ public class ApplicationManager {
         wd.manage().window().maximize();
         wd.navigate().to("https://ilcarro.web.app/search");
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        user = new HelperUser(wd);
     }
 
     public void stop(){
-        wd.quit();
+
+     //   wd.quit();
     }
     public HelperUser getUser(){
         return user;
