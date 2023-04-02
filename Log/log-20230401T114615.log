@@ -1,0 +1,28 @@
+11:46:19.475 [Test worker] INFO  tests.TestBase - ### Start test registrationPositiveTest
+11:46:19.478 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+11:46:29.513 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+11:46:29.515 [Test worker] INFO  tests.TestBase - registrationPositiveTest starts with: joe2789@mail.com & $44Dsd97Tre2789
+11:46:29.515 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Sign up ']
+11:46:29.531 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Sign up '] is found
+11:46:29.623 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: name
+11:46:29.643 [Test worker] INFO  manager.MyListener - The element with locator By.id: name is found
+11:46:29.779 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: lastName
+11:46:29.803 [Test worker] INFO  manager.MyListener - The element with locator By.id: lastName is found
+11:46:29.945 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: email
+11:46:29.973 [Test worker] INFO  manager.MyListener - The element with locator By.id: email is found
+11:46:30.139 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: password
+11:46:30.161 [Test worker] INFO  manager.MyListener - The element with locator By.id: password is found
+11:46:30.307 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //*[@class='checkbox-container']
+11:46:30.333 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //*[@class='checkbox-container'] is found
+11:46:30.596 [Test worker] INFO  manager.MyListener - Start searching element by locator By.cssSelector: [type='submit']
+11:46:30.610 [Test worker] INFO  manager.MyListener - The element with locator By.cssSelector: [type='submit'] is found
+11:46:30.630 [Test worker] INFO  tests.TestBase - registrationPositiveTest completed
+11:46:30.642 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='You are logged in success']
+11:46:32.714 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='You are logged in success'] is found
+11:46:32.770 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='You are logged in success']
+11:46:32.794 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='You are logged in success'] is found
+11:46:32.813 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+11:46:32.834 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+11:46:32.834 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+11:46:32.860 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+11:46:32.903 [Test worker] INFO  tests.TestBase -   ### Finished ###   

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-01T08:46:29" hostname="DESKTOP-670P0FC" time="3.298">
+  <properties/>
+  <testcase name="registrationPositiveTest" classname="tests.RegistrationTests" time="3.298"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

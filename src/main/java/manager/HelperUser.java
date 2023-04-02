@@ -2,7 +2,10 @@ package manager;
 
 import models.User;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -40,8 +43,17 @@ public class HelperUser extends HelperBase {
     }
 
     public void clickCheckbox(){
-
-        click(By.xpath("//label[@for='terms-of-use']"));
+    // variant 1
+    //    click(By.xpath("//label[@for='terms-of-use']"));
+    // variant 2
+    //    JavascriptExecutor script = (JavascriptExecutor) wd;
+    //    script.executeScript("document.querySelector('#terms-of-use').click();");
+        // variant 3
+        Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();
+        int x = rect.getX() + 5;
+        int y = rect.getY() + rect.getHeight()*1/2;
+        Actions actions = new Actions(wd);
+        actions.moveByOffset(x,y).click().perform();
 
     }
 
@@ -62,6 +74,12 @@ public class HelperUser extends HelperBase {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h2[.='Logged in success']"))));
         return wd.findElement(By.xpath("//h2[.='Logged in success']")).getText().contains("success");
+    }
+
+    public boolean isRegisteredSuccess() {
+        WebDriverWait wait = new WebDriverWait(wd, 10);
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h2[.='You are logged in success']"))));
+        return wd.findElement(By.xpath("//h2[.='You are logged in success']")).getText().contains("success");
     }
 
     public boolean isLoggedFailed() {

@@ -1,0 +1,18 @@
+10:37:32.640 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+10:37:42.706 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+10:37:42.709 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Log in ']
+10:37:42.726 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Log in '] is found
+10:37:42.805 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: email
+10:37:42.820 [Test worker] INFO  manager.MyListener - The element with locator By.id: email is found
+10:37:43.001 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: password
+10:37:43.020 [Test worker] INFO  manager.MyListener - The element with locator By.id: password is found
+10:37:43.149 [Test worker] INFO  manager.MyListener - Start searching element by locator By.cssSelector: [type='submit']
+10:37:43.180 [Test worker] INFO  manager.MyListener - The element with locator By.cssSelector: [type='submit'] is found
+10:37:43.237 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='Logged in success']
+10:37:44.267 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='Logged in success'] is found
+10:37:44.314 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='Logged in success']
+10:37:44.325 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='Logged in success'] is found
+10:37:44.346 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+10:37:44.364 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+10:37:44.364 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+10:37:44.391 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
