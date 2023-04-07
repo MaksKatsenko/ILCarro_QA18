@@ -1,0 +1,151 @@
+21:45:03.611 [Test worker] INFO  tests.TestBase - ### Start test loginNegativeTestWrongEmail
+21:45:03.615 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+21:45:13.695 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+21:45:13.697 [Test worker] INFO  manager.NGListener - Start of the test: loginNegativeTestWrongEmail
+21:45:13.699 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Log in ']
+21:45:13.767 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Log in '] is found
+21:45:13.958 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: email
+21:45:13.981 [Test worker] INFO  manager.MyListener - The element with locator By.id: email is found
+21:45:14.138 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: password
+21:45:14.156 [Test worker] INFO  manager.MyListener - The element with locator By.id: password is found
+21:45:14.312 [Test worker] INFO  manager.MyListener - Start searching element by locator By.cssSelector: [type='submit']
+21:45:14.328 [Test worker] INFO  manager.MyListener - The element with locator By.cssSelector: [type='submit'] is found
+21:45:14.381 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //div[.="It'snot look like email"]
+21:45:14.424 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //div[.="It'snot look like email"] is found
+21:45:14.498 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //div[.="It'snot look like email"]
+21:45:14.531 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //div[.="It'snot look like email"] is found
+21:45:14.568 [Test worker] INFO  manager.NGListener - Success test: loginNegativeTestWrongEmail
+21:45:14.569 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+21:45:15.503 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+21:45:15.503 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+21:45:15.521 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+21:45:15.579 [Test worker] INFO  tests.TestBase -   ### Finished ###   
+21:45:15.580 [Test worker] INFO  tests.TestBase - ### Start test loginPositiveTest
+21:45:15.581 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+21:45:25.648 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+21:45:25.648 [Test worker] INFO  manager.NGListener - Start of the test: loginPositiveTest
+21:45:25.648 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Log in ']
+21:45:25.663 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Log in '] is found
+21:45:35.705 [Test worker] INFO  manager.MyListener - Something went wrong!
+21:45:35.705 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:45:35.705 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:45:35.806 [Test worker] INFO  manager.MyListener - Here is the link to screenshot with error: src/test/screenshots/screenshot-2735.png
+21:45:35.807 [Test worker] INFO  manager.NGListener - Test Failure: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:45:35.807 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+21:45:45.875 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+21:45:45.875 [Test worker] INFO  tests.TestBase -   ### Finished ###   
+21:45:45.879 [Test worker] INFO  tests.TestBase - ### Start test loginNegativeTestWrongEmail
+21:45:45.880 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+21:45:55.917 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+21:45:55.917 [Test worker] INFO  manager.NGListener - Start of the test: loginNegativeTestWrongEmail
+21:45:55.917 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Log in ']
+21:45:55.940 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Log in '] is found
+21:46:06.026 [Test worker] INFO  manager.MyListener - Something went wrong!
+21:46:06.026 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:46:06.026 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:46:06.114 [Test worker] INFO  manager.MyListener - Here is the link to screenshot with error: src/test/screenshots/screenshot-2766.png
+21:46:06.115 [Test worker] INFO  manager.NGListener - Test Failure: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:46:06.116 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+21:46:16.148 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+21:46:16.150 [Test worker] INFO  tests.TestBase -   ### Finished ###   
+21:46:16.152 [Test worker] INFO  tests.TestBase - ### Start test loginPositiveTest
+21:46:16.154 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+21:46:26.207 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+21:46:26.207 [Test worker] INFO  manager.NGListener - Start of the test: loginPositiveTest
+21:46:26.207 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Log in ']
+21:46:26.227 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Log in '] is found
+21:46:36.270 [Test worker] INFO  manager.MyListener - Something went wrong!
+21:46:36.270 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:46:36.270 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:46:36.344 [Test worker] INFO  manager.MyListener - Here is the link to screenshot with error: src/test/screenshots/screenshot-2796.png
+21:46:36.344 [Test worker] INFO  manager.NGListener - Test Failure: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:46:36.345 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+21:46:46.410 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+21:46:46.411 [Test worker] INFO  tests.TestBase -   ### Finished ###   
+21:46:46.412 [Test worker] INFO  tests.TestBase - ### Start test registrationPositiveTest
+21:46:46.413 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+21:46:56.480 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+21:46:56.481 [Test worker] INFO  manager.NGListener - Start of the test: registrationPositiveTest
+21:46:56.481 [Test worker] INFO  tests.TestBase - registrationPositiveTest starts with: joe2816@mail.com & $44Dsd97Tre2816
+21:46:56.481 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Sign up ']
+21:46:56.509 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Sign up '] is found
+21:47:06.531 [Test worker] INFO  manager.MyListener - Something went wrong!
+21:47:06.531 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:47:06.531 [Test worker] INFO  manager.MyListener - element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:47:06.613 [Test worker] INFO  manager.MyListener - Here is the link to screenshot with error: src/test/screenshots/screenshot-2826.png
+21:47:06.613 [Test worker] INFO  manager.NGListener - Test Failure: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-670P0FC', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Max\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a758e51834090d30905d56a14c5b8e9
+21:47:06.614 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+21:47:16.672 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+21:47:16.673 [Test worker] INFO  tests.TestBase -   ### Finished ###   

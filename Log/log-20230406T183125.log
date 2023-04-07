@@ -1,0 +1,76 @@
+18:31:29.763 [Test worker] INFO  tests.TestBase - ### Start test loginNegativeTestWrongEmail
+18:31:29.766 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+18:31:39.815 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+18:31:39.816 [Test worker] INFO  manager.NGListener - Start of the test: loginNegativeTestWrongEmail
+18:31:39.818 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Log in ']
+18:31:39.843 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Log in '] is found
+18:31:39.934 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: email
+18:31:39.953 [Test worker] INFO  manager.MyListener - The element with locator By.id: email is found
+18:31:40.147 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: password
+18:31:40.180 [Test worker] INFO  manager.MyListener - The element with locator By.id: password is found
+18:31:40.372 [Test worker] INFO  manager.MyListener - Start searching element by locator By.cssSelector: [type='submit']
+18:31:40.395 [Test worker] INFO  manager.MyListener - The element with locator By.cssSelector: [type='submit'] is found
+18:31:40.443 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //div[.="It'snot look like email"]
+18:31:40.467 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //div[.="It'snot look like email"] is found
+18:31:40.525 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //div[.="It'snot look like email"]
+18:31:40.551 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //div[.="It'snot look like email"] is found
+18:31:40.575 [Test worker] INFO  manager.NGListener - Success test: loginNegativeTestWrongEmail
+18:31:40.575 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+18:31:42.039 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+18:31:42.039 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+18:31:42.067 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+18:31:42.109 [Test worker] INFO  tests.TestBase -   ### Finished ###   
+18:31:42.111 [Test worker] INFO  tests.TestBase - ### Start test loginPositiveTest
+18:31:42.111 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+18:31:52.154 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+18:31:52.155 [Test worker] INFO  manager.NGListener - Start of the test: loginPositiveTest
+18:31:52.155 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Log in ']
+18:31:52.174 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Log in '] is found
+18:31:52.207 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: email
+18:31:52.235 [Test worker] INFO  manager.MyListener - The element with locator By.id: email is found
+18:31:52.400 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: password
+18:31:52.424 [Test worker] INFO  manager.MyListener - The element with locator By.id: password is found
+18:31:52.565 [Test worker] INFO  manager.MyListener - Start searching element by locator By.cssSelector: [type='submit']
+18:31:52.583 [Test worker] INFO  manager.MyListener - The element with locator By.cssSelector: [type='submit'] is found
+18:31:52.598 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='Logged in success']
+18:31:52.937 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='Logged in success'] is found
+18:31:52.977 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='Logged in success']
+18:31:52.998 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='Logged in success'] is found
+18:31:53.020 [Test worker] INFO  manager.NGListener - Success test: loginPositiveTest
+18:31:53.021 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+18:31:53.045 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+18:31:53.045 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+18:31:53.061 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+18:31:53.115 [Test worker] INFO  tests.TestBase -   ### Finished ###   
+18:31:53.120 [Test worker] INFO  tests.TestBase - ### Start test registrationPositiveTest
+18:31:53.121 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+18:31:53.143 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+18:31:53.143 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Logout ']
+18:31:53.160 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Logout '] is found
+18:31:53.245 [Test worker] INFO  manager.NGListener - Start of the test: registrationPositiveTest
+18:31:53.245 [Test worker] INFO  tests.TestBase - registrationPositiveTest starts with: joe1913@mail.com & $44Dsd97Tre1913
+18:31:53.245 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //a[.=' Sign up ']
+18:31:53.271 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //a[.=' Sign up '] is found
+18:31:53.337 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: name
+18:31:53.364 [Test worker] INFO  manager.MyListener - The element with locator By.id: name is found
+18:31:53.498 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: lastName
+18:31:53.522 [Test worker] INFO  manager.MyListener - The element with locator By.id: lastName is found
+18:31:53.645 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: email
+18:31:53.657 [Test worker] INFO  manager.MyListener - The element with locator By.id: email is found
+18:31:53.841 [Test worker] INFO  manager.MyListener - Start searching element by locator By.id: password
+18:31:53.860 [Test worker] INFO  manager.MyListener - The element with locator By.id: password is found
+18:31:54.031 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //*[@class='checkbox-container']
+18:31:54.054 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //*[@class='checkbox-container'] is found
+18:31:54.311 [Test worker] INFO  manager.MyListener - Start searching element by locator By.cssSelector: [type='submit']
+18:31:54.323 [Test worker] INFO  manager.MyListener - The element with locator By.cssSelector: [type='submit'] is found
+18:31:54.344 [Test worker] INFO  tests.TestBase - registrationPositiveTest completed
+18:31:54.344 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='You are logged in success']
+18:31:54.943 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='You are logged in success'] is found
+18:31:54.962 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //h2[.='You are logged in success']
+18:31:54.976 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //h2[.='You are logged in success'] is found
+18:31:54.992 [Test worker] INFO  manager.NGListener - Success test: registrationPositiveTest
+18:31:54.993 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+18:31:55.006 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+18:31:55.007 [Test worker] INFO  manager.MyListener - Start searching element by locator By.xpath: //button[.='Ok']
+18:31:55.023 [Test worker] INFO  manager.MyListener - The element with locator By.xpath: //button[.='Ok'] is found
+18:31:55.072 [Test worker] INFO  tests.TestBase -   ### Finished ###   
