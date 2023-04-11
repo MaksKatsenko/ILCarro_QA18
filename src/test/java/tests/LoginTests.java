@@ -1,5 +1,6 @@
 package tests;
 import manager.NGListener;
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -17,15 +18,16 @@ public class LoginTests extends TestBase{
         }
     }
 
-    @Test
-    public void loginPositiveTest(){
-        User data = new User().withEmail("telran2022@gmail.com").withPassword("Ads$gf1288");
+    @Test(dataProvider = "loginModelDto",dataProviderClass = ProviderData.class)
+    public void loginPositiveTest(User data){
+ //       User data = new User().withEmail("telran2022@gmail.com").withPassword("Ads$gf1288");
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(data);
         app.getUser().submitForm();
 
         Assert.assertTrue(app.getUser().isLoggedSuccess());
     }
+
     @Test
     public void loginNegativeTestWrongEmail(){
         User data = new User().withEmail("ran2018mail.com").withPassword("Ads$gf1288");
