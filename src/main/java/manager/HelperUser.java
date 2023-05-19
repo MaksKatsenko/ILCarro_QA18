@@ -46,14 +46,14 @@ public class HelperUser extends HelperBase {
     // variant 1
     //    click(By.xpath("//label[@for='terms-of-use']"));
     // variant 2
-    //    JavascriptExecutor script = (JavascriptExecutor) wd;
-    //    script.executeScript("document.querySelector('#terms-of-use').click();");
+        JavascriptExecutor script = (JavascriptExecutor) wd;
+        script.executeScript("document.querySelector('#terms-of-use').click();");
         // variant 3
-        Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();
-        int x = rect.getX() + 5;
-        int y = rect.getY() + rect.getHeight()*1/2;
-        Actions actions = new Actions(wd);
-        actions.moveByOffset(x,y).click().perform();
+//        Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();
+//        int x = rect.getX() + 5;
+//        int y = rect.getY() + rect.getHeight()*1/2;
+//        Actions actions = new Actions(wd);
+//        actions.moveByOffset(x,y).click().perform();
 
     }
 

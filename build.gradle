@@ -32,3 +32,12 @@ task myTask(type: Test){
         suites 'src/test/resources/testng.xml'
     }
 }
+
+    task configTest(type: Test){
+        useTestNG(){
+            suites 'src/test/resources/config1.xml'
+            if(project.hasProperty('configuration')){
+                systemProperty 'configuration', "${configuration}"
+            }
+        }
+    }

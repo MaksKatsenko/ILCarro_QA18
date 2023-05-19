@@ -29,6 +29,15 @@ public class LoginTests extends TestBase{
     }
 
     @Test
+    public void loginPositiveTestConfig(){
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(app.getEmail(), app.getPassword());
+        app.getUser().submitForm();
+
+        Assert.assertTrue(app.getUser().isLoggedSuccess());
+    }
+
+    @Test
     public void loginNegativeTestWrongEmail(){
         User data = new User().withEmail("ran2018mail.com").withPassword("Ads$gf1288");
         app.getUser().openLoginForm();

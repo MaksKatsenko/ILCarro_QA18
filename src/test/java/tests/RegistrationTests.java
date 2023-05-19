@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -24,6 +25,21 @@ public class RegistrationTests extends TestBase{
                 .withLastName("Doe")
                 .withEmail("joe" + i + "@mail.com")
                 .withPassword("$44Dsd97Tre"+ i);
+
+        logger.info("registrationPositiveTest starts with: " + user.getEmail() + " & " + user.getPassword());
+
+        app.getUser().openRegistrationForm();
+        app.getUser().fillRegistrationForm(user);
+        app.getUser().clickCheckbox();
+        app.getUser().submitForm();
+
+        logger.info("registrationPositiveTest completed");
+
+        Assert.assertTrue(app.getUser().isRegisteredSuccess());
+    }
+
+    @Test(dataProvider = "registrationCSV", dataProviderClass = ProviderData.class)
+    public void registrationPositiveTestCSV(User user){
 
         logger.info("registrationPositiveTest starts with: " + user.getEmail() + " & " + user.getPassword());
 
